@@ -5,13 +5,14 @@
 }
 
 body {
-    height: 98vh;
+    height: calc(100%);
     display: flex;
     background-color: rgb(1, 39, 13);
     background-image: url("./img/back.png");
     background-position: center;
-    background-size: cover;
+    background-size: auto;
     position: relative;
+    background-repeat: no-repeat;
 }
 
 .memory-game {
@@ -25,8 +26,8 @@ body {
 }
 
 .card{
-    height: calc(28% - 5px);
-    width: calc(25% - 20px);
+    height: calc(26%);
+    width: calc(25%);
     margin: 0px;
     position: relative;
     cursor: pointer;
