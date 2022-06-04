@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando DOM</title>
+</head>
+<body>
+    <h1 onclick="mudaTexto(this)" id="titulo">Minha página</h1>
+    <section class="textos">
+        <h2>Sobre Mim</h2>
+        <p>Texto sobre esta pessoa</p>
+    </section>
+    <section class="textos">
+        <h2>Meus Projetos</h2>
+        <ul>
+            <li>Projeto 1 </li>
+            <li>Projeto 2 </li>
+            <li>Projeto 3 </li>
+        </ul>
+    </section>
+    <div id='meu-elemento' class="classe">
+        <ul>
+            <li class="opcao">Opção 1</li>
+            <li class="opcao">Opção 2</li>
+            <li class="opcao">Opção 3</li>
+        </ul>
+    </div>
+    <script>function mudaTexto(id) { id.innerHTML = "Mudei!"; }</script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
